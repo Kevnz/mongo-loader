@@ -1,0 +1,33 @@
+{
+  "name": "mongo-loader",
+  "version": "0.0.1",
+  "description": "Loads data from json files into a database and can remove as well, useful for testing and seeding a database\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Kevnz/mongo-loader.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "testing",
+    "fixtures",
+    "data",
+    "loading"
+  ],
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kevnz/mongo-loader/issues"
+  },
+  "homepage": "https://github.com/Kevnz/mongo-loader",
+  "dependencies": {
+    "mongo-start": "~0.4.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8"
+  }
+}
