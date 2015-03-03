@@ -23,4 +23,4 @@ loader.purge(function () {
 The files need to be in tests\fixtures and named one per collection. Check out the folders in this repo to see.
 
 ### Configuring the connection
-This module uses  [mongo-start](https://www.npmjs.com/package/mongo-start)and [xtconf](https://www.npmjs.com/package/xtconf) to connect so a config.json file with a "mongo-connection" in it will get you up and running.
+This module uses [mongo-start](https://www.npmjs.com/package/mongo-start)and [xtconf](https://www.npmjs.com/package/xtconf) to connect so a config.json file with a "mongo-connection" in it will get you up and running.
