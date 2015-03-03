@@ -27,7 +27,7 @@ var removeFixtures = function fixtureRemover (pathToFixtures, callback) {
 
         var files = fs.readdirSync(pathToFixtures);
         files.forEach(function (file) {
-            db(file.replace('.json', '')).remove();
+            db(file.replace('.json', '')).drop();
         });
 
     } else {
