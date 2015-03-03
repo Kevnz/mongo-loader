@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/Kevnz/mongo-loader",
   "dependencies": {
-    "mongo-start": "~0.4.0"
+    "mongo-start": "~1.0.0"
   },
   "devDependencies": {
-    "tap": "~0.4.8"
+    "tap": "~0.7.1"
   }
 }
