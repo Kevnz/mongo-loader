@@ -1,6 +1,6 @@
 {
   "name": "mongo-loader",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Loads data from json files into a database and can remove as well, useful for testing and seeding a database\"",
   "main": "index.js",
   "scripts": {
