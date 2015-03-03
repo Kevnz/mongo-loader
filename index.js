@@ -10,8 +10,7 @@ var loadFixtures = function fixtureLoader (pathToFixtures, callback) {
             var res = fs.readFileSync(path.join(pathToFixtures, file),{encoding:'utf8'});
             var data = JSON.parse(res);
             db(file.replace('.json', '')).remove();
-            data.forEach(function(item) { 
-                console.log(item)
+            data.forEach(function(item) {
                 db(file.replace('.json', '')).save(item, function(err, data) { console.log('SAVE ERR',err)});
             });
         });
