@@ -17,8 +17,6 @@ test("Data should be removed", function (t) {
     loader.purge(function () {
         var testDB = require('mongo-start')('people')
         testDB.find(function(err, docs) {
-            console.log(err);
-            console.log(docs);
             t.notOk(err, "no error"); 
             t.ok(docs.length === 0, "should return no items");
             t.end();
