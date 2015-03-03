@@ -4,7 +4,7 @@
   "description": "Loads data from json files into a database and can remove as well, useful for testing and seeding a database\"",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "tap test.js"
   },
   "repository": {
     "type": "git",
