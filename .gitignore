@@ -1,2 +1,5 @@
 node_modules
 config
+.nyc_output
+package-lock.json
+config
